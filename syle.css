@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main-header {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.gnb {
+    margin-top: 15px;
+}
+
+#main-header .gnb ul li {
+    display: inline-block;
+}
+
+#main-header .gnb ul li span{
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #999;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* about, activity */
+
+#content h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#content article {
+    width: 1000px;
+    overflow: hidden;
+}
+
+#content article img {
+    float: left;
+}
+
+#content article #text {
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+}
+
+#content article #text p {
+    line-height: 2em;
+    margin-right: 30px;
+    text-align: justify;
+}
+footer {
+    width: 1000px;
+    height: 90px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+#content .card{
+    width: 310px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 2px 2px 4px #000000;
+    margin-bottom: 5px;
+}
+
+#content .card .about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    clear: both;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+#content  .card  .about  p:first-child{
+    font-size: 20px;
+    padding-top: 20px;   
+}
+
+#content  .card  .about  p:last-child{
+    color: #666;
+    margin-bottom: 30px;
+}
